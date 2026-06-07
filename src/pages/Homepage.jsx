@@ -11,7 +11,7 @@ function Homepage() {
     <>
       <Navbar search={search} setSearch={setSearch} />
       <div className="">
-        <Hero />
+        <Hero search={search} setSearch={setSearch} />
 
         <RestaurantList search={search} />
       </div>
